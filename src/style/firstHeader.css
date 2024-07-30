@@ -1,0 +1,47 @@
+/* 
+
+.firstHeader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #aecfed;
+}
+
+.containerHeader1{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    background-color: #aecfed;
+}
+
+.cardFirstHeader{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: space-between;
+    border: transparent;
+    width: 45%;
+}
+
+.firstHeader>p{
+    margin-top: 12px;
+    margin-left: 6px;
+    font-weight: 400;
+}
+
+.offerHeading{
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    font-weight: 500;
+}
+
+.firstHeader:hover{
+    color: white;
+    cursor: pointer;
+}
+  
+@media screen and (max-width: 1150px) {
+    .containerHeader1{
+      display: none;
+    }
+  } */

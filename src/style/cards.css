@@ -1,0 +1,130 @@
+.zoom-image {
+    transition: transform 0.2s; 
+  }
+  
+  .zoom-image:hover {
+    transform: scale(0.9);
+  }
+
+  .card{
+    width: "15rem";
+    background-color: transparent;
+    border: transparent;
+    /* border: 2px solid black; */
+  }
+
+   .card:hover{
+    cursor: pointer;
+   }
+
+  .card-title {
+    font-size: 15px;
+    font-weight: 350;
+    color: black;
+  }
+
+  /* .card-text{
+    color: grey;
+  } */
+
+  .price-offer{
+    display: flex;
+    /* margin: auto; */
+    gap: 5px;
+    color: rgb(71, 61, 61);
+    font-weight: 400;
+    /* margin-top: 5px; */
+  }
+
+  .offer{
+    margin-left: 6px;
+    color: #319874;
+  }
+
+  /* .verticleLine{
+    height: 20px;
+    margin-top: 3px;
+    margin-left: 6px;
+    border: 0.1px solid rgb(230, 217, 217);
+  } */
+
+  /* .pr{
+    text-decoration: line-through;
+  } */
+
+  .offerPrice{
+    margin-left: 5px;
+    color: grey;
+  }
+
+  .price{
+    text-decoration: line-through;
+  }
+
+/* .btns-cart-details{
+  display: grid;
+  grid-template-columns: 70% 30%;
+  justify-content: space-between;
+  margin-top: -10px;
+  width: 100%;
+}
+
+.detailsBtn{
+  font-weight: 500;
+  padding: 10px 10px;
+  font-size: 15px;
+  border: transparent;
+  background-color: rgb(249, 153, 212);
+  border-bottom-left-radius: 5px;
+  color: rgb(107, 28, 136);
+}
+
+.detailsBtn:hover{
+  background-color: rgb(165, 86, 100);
+  color: white;
+  transform: scale(0.9);
+}
+
+.cartBtn:hover{
+  transform: scale(0.9);
+}
+
+.cartBtn{
+  padding: 10px 10px;
+  border: transparent;
+  background-color: rgb(251, 252, 253);
+  font-size: 20px;
+  border-bottom-right-radius: 5px;
+} */
+
+
+
+@media screen and (max-width: 767px) {
+    .d-flex.flex-wrap {
+      justify-content: center;
+    }
+  }
+
+  @media screen and (max-width: 700px) {
+    .zoom-image {
+      height: 250px;
+    }
+  }
+
+  @media screen and (max-width: 375px) {
+    .card-body {
+      padding: 10px; /* Reduce padding for better space utilization */
+    }
+  
+    /* Adjust button styles to make them fit */
+    .btn {
+      font-size: 8px; /* Increase font size for buttons */
+      padding: 5px 4px; /* Increase button padding */
+    }
+  }
+  
+  
+
+  
+  
+  

@@ -1,0 +1,72 @@
+
+
+/*  ======================== register page css =============================== */
+
+
+
+.form-container{
+    padding: 56px 40px;
+    background: url('./login-banner4.png') no-repeat center center/cover;
+    background-size: 100% 100%;
+    margin-top: -70px;
+}
+
+
+.form-container form{
+    margin-left: 65%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 15px 30px;
+    width: 30%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5%;
+    margin-top: 70px;
+}
+
+.form-container form .title{
+    text-align: center;
+    margin-top: -5px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-family: Harrington;
+    color: rgb(245, 235, 233);
+}
+
+
+.form-container form input{
+    border: none;
+    border-bottom: 1px solid #000;
+    width: 100%;
+    border-radius: 5;
+    background-color: rgb(250, 250, 248);
+    /* background-color: grey; */
+}
+
+.form-container form button{
+    border:transparent;
+    border-radius: 5;
+    /* background-color: black; */
+    color: white;
+    width: 100%;
+    /* margin-bottom: 30px; */
+    background: #00416A;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #E4E5E6, #00416A);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #E4E5E6, #00416A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+
+}
+
+
+.form-container form button:hover{
+    background: #334d50;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #cbcaa5, #334d50);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #cbcaa5, #334d50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+
+@media screen and (max-width: 767px) {
+    .form-container>form{
+        width: 100%;
+    }
+  }

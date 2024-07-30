@@ -1,0 +1,50 @@
+.nav-link{
+    font-size: 13px;
+    color: white;
+}
+
+.dropdown-item{
+    font-size: 13px;
+}
+
+.logoName{
+   font-weight: 700;
+   margin-bottom: -7px;
+   letter-spacing: normal;
+}
+
+.mainLogo{
+  display: block;
+  margin: 0 auto;
+  width: 100px; 
+  height: 50px;
+}
+
+.navbar-nav{
+    margin-right: 30px;
+}
+
+@media screen and (min-width: 992px) {
+    .navbar-brand1{
+       display: none;
+    }
+   }
+
+   @media screen and (max-width: 992px) {
+    .navbar-brand{
+       display: none;
+    }
+   }
+
+
+   /* .dropdown-menu.dropdown-hover {
+    display: none;
+  }
+  
+  .nav-item.dropdown:hover .dropdown-menu.dropdown-hover {
+    display: block;
+  }
+  
+  .nav-item.dropdown:hover .nav-link.dropdown-toggle::after {
+    transform: rotate(180deg);
+  } */
